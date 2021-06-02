@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/kyleines/Project-Portfolio/issues"
   },
-  "homepage": "https://github.com/kyleines/Project-Portfolio#readme"
+  "homepage": "https://github.com/kyleines/Project-Portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
