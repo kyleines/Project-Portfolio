@@ -1,0 +1,40 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Random Quote Generator",
+            "description": "Displays a random quote every 15 seconds.",
+            "technologies": ["JavaScript", "CSS", "HTML"],
+            "live_link": "https://kyleines.github.io/a_random_quote_generator-v1/",
+            "github_link": "https://github.com/kyleines/a_random_quote_generator-v1",
+            "image_urls": ["/img/screenshot-random-quote-1.jpg", "/img/screenshot-random-quote-2.jpg"]
+        },
+        {
+            "id": 1,
+            "project_name": "Interactive Form",
+            "description": "Displays a dynamic javascript form for a full stack conference.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://kyleines.github.io/Interactive-Form/",
+            "github_link": "https://github.com/kyleines/Interactive-Form",
+            "image_urls": ["/img/screenshot-form-1.jpg", "/img/screenshot-form-2.jpg"]
+        },
+        {
+            "id": 2,
+            "project_name": "Phrase Hunter Game",
+            "description": "Guess the letters to display the hidden phrase.",
+            "technologies": ["JavaScript", "CSS", "HTML"],
+            "live_link": "https://kyleines.github.io/Phrase-Hunter-Game/",
+            "github_link": "https://github.com/kyleines/Phrase-Hunter-Game",
+            "image_urls": ["/img/screenshot-phrase-hunter-1.jpg", "/img/screenshot-phrase-hunter-2.jpg"]
+        },
+        {
+            "id": 3,
+            "project_name": "Employee Directory",
+            "description": "Displays twelve employees. Opens modal window upon selection.",
+            "technologies": ["JavaScript", "CSS", "HTML"],
+            "live_link": "https://kyleines.github.io/Employee-Directory/",
+            "github_link": "https://github.com/kyleines/Employee-Directory",
+            "image_urls": ["/img/screenshot-employee-1.jpg", "/img/screenshot-employee-2.jpg"]
+        }
+    ]
+}
