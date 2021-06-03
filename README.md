@@ -2,16 +2,13 @@
 
 ### Welcome to my Project Portfolio for the Team Treehouse: FSJS Techdegree - Unit 6 Project.
 
-Project in progress. :)
+This portfolio displays the first five projects I completed in the Team Treehouse: Full Stack JavaScript Techdegree. \
+Selecting a project takes you to the description page where you can view screenshots or click links taking you either to a live version of the project, or to the GitHub repository.
 
-<!-- This project is hosted by [GitHub Pages](https://docs.github.com/en/pages) at [kyleines.github.io/Project-Portfolio](https://kyleines.github.io/Project-Portfolio/).
-
-(Description)
-
-This apps's features include: \
-:heavy_check_mark: (Feature) \
-:heavy_check_mark: (Feature) \
-:heavy_check_mark: (Feature)
+This portfolio's features include: \
+:heavy_check_mark: Breakdowns of languages used in each project. \
+:heavy_check_mark: Custom styling. \
+:heavy_check_mark: Custom error pages with "back" buttons to return to safety.
 
 Thanks for visiting! \
 Feedback, follows, and stars are all appreciated!
@@ -20,8 +17,10 @@ Feedback, follows, and stars are all appreciated!
 
 <br>
 
-Developer's Notes: \
-(Notes) -->
+Developer's Notes: 
+- In styles.css from line 262 to line 270, I changed the original box-shadow properties and added other properties for a more defined mouse hovering effect.
+- Changed sidebar color by changing the sidebar *and* body background color in styles.css at lines 25 and 140, respectively. 
+- Changed about page and project pages button colors in styles.css at line 306. 
 
 <br>
 <br>
