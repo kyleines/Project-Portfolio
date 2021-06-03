@@ -11,6 +11,15 @@
         },
         {
             "id": 1,
+            "project_name": "Student Directory",
+            "description": "Uses pagination to divide forty-two students into five pages. Filters search on keyup.",
+            "technologies": ["JavaScript . . 78.8%", "CSS . . . . . . .15.1%", "HTML . . . . . . .6.1%"],
+            "live_link": "https://kyleines.github.io/Student-Directory/",
+            "github_link": "https://github.com/kyleines/Student-Directory",
+            "image_urls": ["/static/img/screenshot-student-1.jpg", "/static/img/screenshot-student-2.jpg"]
+        },
+        {
+            "id": 2,
             "project_name": "Interactive Form",
             "description": "Displays a dynamic javascript form for a full stack conference.",
             "technologies": ["HTML . . . . . .37.6%", "CSS . . . . . . .36.5%", "JavaScript . . 25.9%"],
@@ -19,7 +28,7 @@
             "image_urls": ["/static/img/screenshot-form-1.jpg", "/static/img/screenshot-form-2.jpg"]
         },
         {
-            "id": 2,
+            "id": 3,
             "project_name": "Phrase Hunter Game",
             "description": "Guess the letters to display the hidden phrase.",
             "technologies": ["JavaScript . . 56.0%", "CSS . . . . . . .24.4%", "HTML . . . . . .19.6%"],
@@ -28,7 +37,7 @@
             "image_urls": ["/static/img/screenshot-phrase-hunter-1.jpg", "/static/img/screenshot-phrase-hunter-2.jpg"]
         },
         {
-            "id": 3,
+            "id": 4,
             "project_name": "Employee Directory",
             "description": "Displays twelve employees. Opens modal window upon selection.",
             "technologies": ["JavaScript . . 47.6%", "CSS . . . . . . .28.6%", "HTML . . . . . .23.8%"],
