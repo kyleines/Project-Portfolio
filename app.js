@@ -36,6 +36,31 @@ app.get("/:id", (req, res, next) => {
 
 
 
+// 4o4 Error Handler
+app.use((req, res) => {
+    console.log("4o4 handler called")
+    const err = new Error();
+    err.status = 404;
+    err.message = "You have reached the edge of the matrix, please turn back now.";
+
+    console.log(`${err.status}: ${err.message}`);
+    res.render("error", {errCode: err.status, errText: err.message});
+});
+
+// Global Error Handler
+app.use((err, req, res, next) => {
+    console.log("Global handler caller");
+
+    if (err.status !== 404) {
+        err.status = 500;
+        err.message = "Oops, I did something wrong. Or did I?"
+    }
+
+    console.log(`${err.status}: ${err.message}`);
+    res.render("error", {errCode: err.status, errText: err.message});
+});
+
+
 
 // Local server connection
 app.listen(3000, () => {
