@@ -26,6 +26,9 @@ block content
           //- Use an `each` iterator and interpolation to dynamically replace the li tags below with the technologies listed for this project
           each tech in project.technologies
             li= tech 
+        
+        //- Displays reference under technology list
+        sub (% based on GitHub's #[a(href="https://github.com/github/linguist/blob/master/docs/how-linguist-works.md") Linguist library])
 
         //- Add the href values to the links below
         a.btn-link(href=`${project.live_link}` target="_blank") Live Demo
