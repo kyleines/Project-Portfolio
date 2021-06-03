@@ -13,7 +13,7 @@ app.set("view engine", "pug");
 app.use("/static",express.static(path.join(__dirname, "public")));
 
 
-
+// Setup routes
 app.get("/", (req, res) => {
     res.render("index", {projects});
 });
@@ -43,27 +43,29 @@ app.use((req, res) => {
     err.status = 404;
     err.message = "You have reached the edge of the matrix, please turn back now.";
 
-    console.log(`${err.status}: ${err.message}`);
-    res.render("error", {errCode: err.status, errText: err.message});
+    console.log(`\x1b[31m${err.status}: ${err.message}\x1b[0m`);   //  \x1b[31m = red console text
+    res.render("page-not-found", {err});                           //  \x1b[0m  = reset console text
 });
 
 // Global Error Handler
 app.use((err, req, res, next) => {
-    console.log("Global handler caller");
+    console.log("Global handler called");
 
-    if (err.status !== 404) {
+    if (err.status === 404) {
+        console.log(`\x1b[31m${err.status}: ${err.message}\x1b[0m`);
+        res.render("page-not-found", {err});
+    } else {
         err.status = 500;
-        err.message = "Oops, I did something wrong. Or did I?"
+        err.message = "Oops, I did something wrong. Or did I?";
+        console.log(`\x1b[31m${err.status}: ${err.message}\x1b[0m`);
+        res.render("error", {err});
     }
-
-    console.log(`${err.status}: ${err.message}`);
-    res.render("error", {errCode: err.status, errText: err.message});
 });
 
 
 
 // Local server connection
 app.listen(3000, () => {
-    console.log(Date());
-    console.log("App running on localhost:3000");
+    console.log(`\x1b[1m${Date()}`);                        // \x1b[1m = bright console text
+    console.log("App running on localhost:3000\x1b[0m");    // \x1b[0m = reset console text
 });
