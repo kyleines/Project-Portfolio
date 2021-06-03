@@ -4,7 +4,7 @@
             "id": 0,
             "project_name": "Random Quote Generator",
             "description": "Displays a random quote every 15 seconds.",
-            "technologies": ["JavaScript", "CSS", "HTML"],
+            "technologies": ["JavaScript . . 65.4%", "CSS . . . . . . .26.0%", "HTML . . . . . . .8.6%"],
             "live_link": "https://kyleines.github.io/a_random_quote_generator-v1/",
             "github_link": "https://github.com/kyleines/a_random_quote_generator-v1",
             "image_urls": ["/static/img/screenshot-random-quotes-1.jpg", "/static/img/screenshot-random-quotes-2.jpg"]
@@ -13,7 +13,7 @@
             "id": 1,
             "project_name": "Interactive Form",
             "description": "Displays a dynamic javascript form for a full stack conference.",
-            "technologies": ["HTML", "CSS", "JavaScript"],
+            "technologies": ["HTML . . . . . .37.6%", "CSS . . . . . . .36.5%", "JavaScript . . 25.9%"],
             "live_link": "https://kyleines.github.io/Interactive-Form/",
             "github_link": "https://github.com/kyleines/Interactive-Form",
             "image_urls": ["/static/img/screenshot-form-1.jpg", "/static/img/screenshot-form-2.jpg"]
@@ -22,7 +22,7 @@
             "id": 2,
             "project_name": "Phrase Hunter Game",
             "description": "Guess the letters to display the hidden phrase.",
-            "technologies": ["JavaScript", "CSS", "HTML"],
+            "technologies": ["JavaScript . . 56.0%", "CSS . . . . . . .24.4%", "HTML . . . . . .19.6%"],
             "live_link": "https://kyleines.github.io/Phrase-Hunter-Game/",
             "github_link": "https://github.com/kyleines/Phrase-Hunter-Game",
             "image_urls": ["/static/img/screenshot-phrase-hunter-1.jpg", "/static/img/screenshot-phrase-hunter-2.jpg"]
@@ -31,7 +31,7 @@
             "id": 3,
             "project_name": "Employee Directory",
             "description": "Displays twelve employees. Opens modal window upon selection.",
-            "technologies": ["JavaScript", "CSS", "HTML"],
+            "technologies": ["JavaScript . . 47.6%", "CSS . . . . . . .28.6%", "HTML . . . . . .23.8%"],
             "live_link": "https://kyleines.github.io/Employee-Directory/",
             "github_link": "https://github.com/kyleines/Employee-Directory",
             "image_urls": ["/static/img/screenshot-employee-1.jpg", "/static/img/screenshot-employee-2.jpg"]
