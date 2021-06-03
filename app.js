@@ -1,5 +1,16 @@
 const express = require("express");
+const path = require("path");
+const {projects} = require("./data.json");
 
+// Create instance of Express
+const app = express();
+
+// Setup views & view engine
+app.set("views", path.join(__dirname, "views"));
+app.set("view engine", "pug");
+
+// Serve static files
+app.use("/static",express.static(path.join(__dirname, "public")));
 
 
 
