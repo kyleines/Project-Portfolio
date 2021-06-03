@@ -131,6 +131,7 @@ sup {
 }
 
 sub {
+  top: -1.5em;          /* Added */
   bottom: -0.25em;
 }
 
