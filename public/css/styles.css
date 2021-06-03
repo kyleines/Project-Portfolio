@@ -22,7 +22,7 @@ body {
   line-height: 1.5;
   color: #0a0a0a;
   background: #fefefe;
-  background: #000;
+  background: rgb(34, 0, 0);                                        /* Changed from #000 */
   transform: translateX(0px);
   transition: all 0.4s ease-out;
 }
@@ -63,7 +63,7 @@ a {
   min-width: 320px;
   height: 100%;
   min-height: 100%;
-  background: #fefefe;
+  background: #fefefe; 
 }
 
 .flex-row-wrap {
@@ -137,7 +137,7 @@ nav a span {
   height: 100%;
   min-height: 100%;
   padding: 20px;
-  background: #000;
+  background: rgb(34, 0, 0);                    /* Changed from #000 */
 }
 
 .sidebar-info-box {
@@ -259,7 +259,14 @@ nav a span {
   width: 100%;
   min-width: 100px;
   border: 4px solid #fff;
-  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+  box-shadow: 6px 6px 10px 1px rgba(10, 10, 10, 0.2);        /* Changed */
+  opacity: 0.75;                                               /* Added */
+  transition: .2s ease-out;                                    /* Added */
+}
+
+.cell img:hover {                                              /* Added */
+  box-shadow: 8px 8px 3px 1px rgba(10, 10, 10, 0.2);
+  opacity: 1;
 }
 
 
@@ -296,7 +303,7 @@ nav a span {
   max-width: 255px;
   margin: auto 0 5px 0;
   padding: 0.85em 1em;
-  background-color: #333;
+  background-color: rgb(34, 0, 0);                   /* Changed from #333 */
   border: 1px solid transparent;
 }
 
