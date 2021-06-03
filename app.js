@@ -14,6 +14,28 @@ app.use("/static",express.static(path.join(__dirname, "public")));
 
 
 
+app.get("/", (req, res) => {
+    res.render("index", {projects});
+});
+
+app.get("/about", (req, res) => {
+    res.render("about");
+});
+
+app.get("/:id", (req, res, next) => {
+    const {id} = req.params;
+    if (projects[id]) {
+        res.render("project", {project: projects[id]});
+    } else {
+        const err = new Error();
+        err.status = 404;
+        err.message = "You have reached the edge of the matrix, please turn back now.";
+        next(err);
+    }
+});
+
+
+
 
 // Local server connection
 app.listen(3000, () => {
