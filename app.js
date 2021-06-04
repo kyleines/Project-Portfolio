@@ -1,3 +1,24 @@
+/************************************************
+Treehouse FSJS Techdegree:
+Project 6 - Project Profile
+************************************************/
+
+
+
+/*
+Dear Reviewer,
+I appreciate you for taking the time to review my project! 
+Your feedback is important to me and crucial to my growth as a developer.
+With the following code I hope to earn the "Exceeds Expectations" grade, and 
+I humbly request that you reject my submission if I don't meet those requirements.
+
+Thank you again!
+-Kyle
+*/
+
+
+
+
 const express = require("express");
 const path = require("path");
 const {projects} = require("./data.json");
