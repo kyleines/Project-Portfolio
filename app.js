@@ -22,7 +22,7 @@ app.get("/about", (req, res) => {
     res.render("about");
 });
 
-app.get("/:id", (req, res, next) => {
+app.get("/project/:id", (req, res, next) => {
     const {id} = req.params;
     if (projects[id]) {
         res.render("project", {project: projects[id]});
